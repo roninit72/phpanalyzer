@@ -1,0 +1,900 @@
+{
+	"global": {
+		"submit_button"					: "Invia",
+		"delete"						: "Cancella",
+		"edit"							: "Modifica",
+		"enable"						: "Attiva",
+		"disable"						: "Disattiva",
+		"show_more"						: "Mostra Altro",
+		"language"						: "Linguaggio",
+		"close"							: "Chiudi",
+		"online"						: "Online",
+		"search"						: "Cerca",
+		"search_view_all"				: "Guarda tutti i risultati",
+		"go_back_button"				: "Indietro",
+		"verified"						: "Utente Verificato",
+		"date_selector"					: "Selettore di data",
+		"yes"							: "Si",
+		"no"							: "No",
+
+		"message_type": {
+			"error"						: "Errore !",
+			"info"						: "Info !",
+			"success"					: "Successo !"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Sicuro di voler cancellarlo ?",
+			"premium_access"			: "Spiacente, ma puoi accedere a queste feature solo se hai un account premium.."
+		},
+
+		"success_message": {
+			"basic"						: "Il tuo comando e' stato eseguito con successo !",
+			"account_activated"			: "Il tuo account e' stato attivato, adesso puoi accedere con i tuoi dati di login :)"
+		},
+
+		"error_message": {
+			"directory_not_writeable"	: "La directory non e' scrivibile <strong>%s</strong>",
+			"empty_fields"				: "Devi compilare tutti i campi !",
+			"invalid_captcha"			: "Il codice captcha non e' corretto !",
+			"invalid_file_type"			: "File di tipo non valido !",
+			"invalid_image_size"		: "Hai cercato di caricare un'immagine che eccede la grandezza limite ( %s ) !",
+			"invalid_token"				: "L'azione non puo' essere completata perche' il protector e' scaduto, prova di nuovo !",
+			"command_denied"			: "Non hai accesso a questo comando !",
+			"page_access_denied"		: "Non hai accesso a questa pagina !",
+			"invalid_account"			: "Questo utente non esiste !",
+			"basic"						: "Non riesco a completare il comando richiesto !",
+			"system_issues"				: "Ci sono problemi sul sistema al momento, contatta l'amministratore e digli di questi problemi."
+		},
+
+		"menu": {
+			"home"						: "Home",
+			"logout"					: "Logout",
+			"settings"					: "Impostazioni",
+			"admin"						: "Pannello Amministrativo",
+			"website"					: "Visita sito",
+			"search_placeholder"		: "Inserisci nome utente instagram o il link del profilo..",
+			"instagram"					: "Instagram",
+			"admin_settings"			: "Impostazioni"
+		},
+
+		"date": {
+			"x_days"					: "%s giorni",
+			"x_months"					: "%s mesi",
+			"year"						: "1 anno",
+			"x_years"					: "%s anni",
+			"year_and_half"				: "1 anno e mezzo"
+		}
+	},
+
+
+	"page": {
+		"info_message": {
+			"invalid_page"				: "La pagina che stai cercando non esiste !"
+		}
+	},
+
+	"favorites": {
+		"title"							: "I Tuoi Favoriti",
+		"menu"							: "Favoriti",
+
+		"display": {
+			"instagram"					: "I tuoi account Instagram favoriti"
+		},
+
+		"info_message": {
+			"no_favorites"				: "<i class=\"fa fa-users\"></i> Al momento non hai nessun account nella lista dei favoriti.. torna quando ne avrai almeno uno :)"
+		}
+	},
+
+	"compare": {
+		"title"							: "Confronta Utenti Instagram",
+		"title_dynamic"					: "Confronta %s con %s Instagram",
+		"header"						: "Confronta Account Instagram",
+		"header_help"					: "Puoi inserire due account instagram di cui hai l'accesso e potrai confrontare e analizzare le loro statistiche una accanto all'altra.",
+
+		"display": {
+			"compare_text"				: "vs",
+			"search_input_placeholder"	: "Nome Utente Instagram",
+			"statistics"				: "Comparazione Statistiche",
+			"view_report"				: "Guarda Report",
+			"top_posts"					: "Top Posts",
+			"top_posts_help"			: "Top posts dagli ultimi %s post di entrambi gli account.",
+			"engagement_rate"			: "Engagement",
+			"engagement_rate_help"		: "L'engagement e' il numero di like/commenti attivi su ogni post",
+			"average_likes"				: "Media dei Like",
+			"average_likes_help"		: "Media dei like calcolata sugli ultimi %s post",
+			"average_comments"			: "Media dei Commenti",
+			"average_comments_help"		: "Media dei commenti calcolata sugli ultimi %s post",
+
+			"average_engagement_rate_chart" : "Tabella Media Engagement",
+			"followers_chart"			: "Tabella Follower"
+		},
+
+		"info_message": {
+			"user_not_found"			: "Sembra che <strong>%s</strong> non esista ancora nel nostro database, vuoi <a href=\"report/%s\">Aggiungere %s</strong></a> al nostro database?"
+		},
+
+		"error_message": {
+			"no_access"					: "Non puoi accedere a queste statistiche se non esegui il login.",
+			"no_access_purchase"		: "Devi aver acquistato almeno un Report di entrambi gli account che vuoi controllare."
+		}
+	},
+
+	"report": {
+		"title"							: "Report Instagram di @%s",
+
+		"display": {
+			"compare"					: "Confronta",
+			"projections"				: "Proiezioni Future",
+			"no_projections"			: "Non ci sono dati sufficienti per generare le proiezioni future, per favore torna domani.",
+			"projections_help"			: "Di seguito puoi vedere una proiezione delle statistiche future calcolata sulla media dei giorni trascorsi.",
+			"time_until"				: "Statistiche di",
+			"time_until_now"			: "Oggi",
+			"average_calculations"		: "<i class=\"fa fa-calculator\"></i> Calcolato sulla media di",
+			"followers_per_day"			: "%s follower/giorno",
+			"uploads_per_day"			: "%s upload/giorno",
+			"private_account"			: "Questo e' un account privato",
+			"private_account_help"		: "Non possiamo ottenere statistiche dettagliate per gli account privati, assicurati che l'account sia pubblico prima di controllare il report completo.",
+			"unlock"					: "<i class=\"fa fa-unlock\"></i> Sblocca report",
+			"unlock_helper"				: "Ottieni l'accesso a tutte le informazioni disponibili per <strong>%s</strong>",
+			"unlock_helper2"			: "Sblocca il report per solo <strong>%s</strong> punto(i). ( 1 Punto = 1 %s )",
+			"unlock_helper3"			: "Il report rimarra' disponibile per <strong>%s</strong> giorni dopo l'acquisto.",
+			"last_checked_date"			: "Ultimo controllo: %s",
+			"followers"					: "Follower",
+			"following"					: "Following",
+			"uploads"					: "Upload",
+			"instagram_id"				: "Instagram ID",
+			"engagement_rate"			: "Engagement",
+			"engagement_rate_help"		: "L'engagement e' il numero di like/commenti attivi su ogni post",
+			"average_likes"				: "Media Like",
+			"average_likes_help"		: "Media dei likes calcolata sugli ultimi %s post",
+			"average_comments"			: "Media Commenti",
+			"average_comments_help"		: "Media dei commenti calcolata sugli ultimi %s post",
+			"top_mentions"				: "Top @Menzioni",
+			"top_mentions_help"			: "Top menzioni dagli ultimi %s post",
+			"top_posts"					: "Top Post",
+			"top_posts_help"			: "Top post dagli ultimi %s post",
+			"mention_use"				: "Usato in %s dei %s post",
+			"top_hashtags"				: "Top #Hashtag",
+			"top_hashtags_help"			: "Top hashtag dagli ultimi %s post",
+			"hashtag_use"				: "Usato in %s dei %s post",
+			"user"						: "Utente",
+			"date"						: "Data",
+			"date_help"					: "Formato: YYYY-MM-DD",
+			"engagement"				: "Engagement",
+			"statistics_summary"		: "Riepilogo Statistiche Persone",
+			"summary"					: "Riepilogo Statistiche Account",
+			"summary_help"				: "Mostra ultimi 15 giorni.",
+			"total_summary"				: "<i class=\"fa fa-list-ol\"></i> Riepilogo Totale",
+			"average_engagement_rate_chart_summary"			: "Grafico Media Engagement",
+			"average_engagement_rate_chart_summary_help"	: "Ogni valore in questo grafico e' uguale alla Media Engagement Rate dell'account in quel preciso giorno",
+			"average_engagement_rate"	: "Media Engagement Rate",
+
+			"view_profile"				: "Profilo IG",
+			"visit_website"				: "Sito",
+			"followers_chart"			: "Grafico evoluzione Follower",
+			"following_chart"			: "Grafico evoluzione Following",
+			"uploads_chart"				: "Grafico evoluzione Upload",
+			"average_engagement_rate_chart"					: "Grafico Media Engagement Rate",
+			"upcoming_check"			: "<i class=\"fa fa-calendar\"></i> Prossimo aggiornamento fra",
+			"add_favorite"				: "<span data-toggle=\"tooltip\" title=\"Aggiungi ai favoriti\"><i class=\"far fa-heart\"></i></span>",
+			"remove_favorite"			: "<span data-toggle=\"tooltip\" title=\"Rimuovi dai favoriti\"><i class=\"fa fa-heart text-danger\"></i></span>",
+			"private"					: "Account Privato",
+			"verified"					: "Verificato Instagram"
+		},
+
+		"state": {
+			"not_checked_full_name"		: "Questo report non e' ancora stato generato",
+			"not_checked_description"	: "Questo report non e' ancora stato generato, clicca sul report per calcolarlo"
+		},
+
+		"button": {
+			"login"						: "Login",
+			"register"					: "Accedi",
+			"purchase"					: "Sblocca Unlock",
+			"refresh"					: "Ho reso pubblico il mio profilo"
+		},
+
+		"error_message": {
+			"low_followers"				: "Siamo spiacenti ma puoi aggiungere al nostro database solamente account che abbiano almeno %s follower o piu'.."
+		}
+	},
+
+
+	"account_settings": {
+		"title"							: "Impostazioni Account",
+		"menu"							: "Impostazioni Account",
+		"header"						: "Impostazioni Account",
+		"header2"						: "Cambia Password",
+		"header2_help"					: "Se non vuoi cambiare la tua password, non compilare nessuno di questi dati di seguito.",
+		"header3"						: "Cancella Account",
+		"header3_help"					: "Cancellando l'account, tutti i dati registrati verranno rimossi. Questa azione e' irreversibile una volta fatta.",
+
+		"display": {
+			"last_activity"				: "Ultima volta attivo: "
+		},
+
+		"input": {
+			"current_password"			: "Password Attuale",
+			"new_password"				: "Nuova Password",
+			"repeat_password"			: "Ripeti Password",
+			"email"						: "Email",
+			"username"					: "Nome Utente",
+			"name"						: "Nome"
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "La tua password attuale non e' valida !",
+			"short_password"			: "La tua password e' troppo breve, deve essere lunga almeno 6 caratteri !",
+			"passwords_not_matching"	: "Le password che hai inserito non corrispondono",
+			"username_length"			: "Il nome utente deve essere fra 3 e 32 caratteri !",
+			"user_exists"				: "Siamo spiacenti, ma il nome utente <strong>%s</strong> e' gia' stato registrato da un altro utente !"
+		},
+
+		"success_message": {
+			"account_updated"			: "Il tuo account e' stato aggiornato !"
+		}
+	},
+
+
+	"reset_password": {
+		"title"							: "Resetta Password",
+		"header"						: "Resetta Password",
+
+		"input": {
+			"new_password"				: "Nuova Password",
+			"repeat_password"			: "Ripeti Password"
+		},
+
+		"error_message": {
+			"short_password"			: "La tua password e' troppo breve, deve essere lunga almeno 6 caratteri !",
+			"passwords_not_matching"	: "Le password che hai inserito non corrispondono"
+		},
+
+		"success_message": {
+			"password_updated"			: "La tua password e' stata aggiornata !"
+		}
+	},
+
+
+	"login": {
+		"menu"							: "Login",
+		"title"							: "Login",
+		"header"						: "Login",
+
+		"input": {
+			"username" 					: "Nome Utente",
+			"password"					: "Password",
+			"remember_me"				: "Ricordami"
+		},
+
+		"button": {
+			"login"						: "Accedi",
+			"lost_password"				: "Password Perduta",
+			"resend_activation"			: "Invia Nuovamente Attivazione",
+			"facebook"					: "Accedi con <i class=\"fab fa-facebook\"></i>",
+			"instagram"					: "Accedi con <i class=\"fab fa-instagram\"></i>"
+		},
+
+		"info_message": {
+			"logged_in"					: "Bentornato! Ora puoi vedere le statistiche a cui hai accesso !"
+		},
+
+		"error_message": {
+			"wrong_login_credentials"	: "La combinazione di nome utente  - password inserita non e' valida !",
+			"user_not_active"			: "Il tuo account non e' confermato, o e' stato bannato!"
+
+		}
+	},
+
+
+	"lost_password": {
+		"title"							: "Password Perduta",
+		"header"						: "Password Perduta",
+
+		"input": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "Abbiamo inviato un email all'indirizzo specificato, se c'e' un account registrato con questi dati !"
+		},
+
+		"email": {
+			"title"						: "Password Perduta",
+			"content" 					: "Abbiamo generato un link per resettare la password del tuo account, non accedere all'url seguente se non sei stato tu a farne richiesta! %sreset-password/%s/%s"
+		}
+	},
+
+	"resend_activation": {
+		"title"							: "Invia Nuovamente Attivazione",
+		"header"						: "Invia Nuovamente Email di Attivazione",
+
+		"input": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "Abbiamo inviato un email all'indirizzo specificato, se c'e' un account registrato con questi dati !"
+		},
+
+		"email": {
+			"title"						: "Attiva il tuo account",
+			"content"					: "Devi attivare il tuo account cliccando su questo link: %sactivate/%s/%s"
+		}
+	},
+
+
+	"register": {
+		"title"							: "Registrati",
+		"menu"							: "Registrati",
+		"header"						: "Registrati",
+		"subheader"						: "Hai gia' un account?",
+
+		"input": {
+			"username" 					: "Nome Utente",
+			"name"						: "Nome",
+			"email"						: "Email",
+			"password"					: "Password",
+			"repeat_password"			: "Ripeti Password"
+		},
+
+		"error_message": {
+			"username_length"			: "Il nome utente deve contenere fra i 3 e 32 caratteri !",
+			"name_length"				: "Il nome deve contenere fra i 3 e 32 caratteri !",
+			"user_exists"				: "Spiacenti, ma il nome utente <strong>%s</strong> e' gia' registrato !",
+			"email_exists"				: "Spiacenti, ma questo indirizzo email e' gia' stato usato !",
+			"invalid_email"				: "Hai inserito un indirizzo email errato !",
+			"short_password"			: "La tua password e' troppo breve, deve essere almeno 6 caratteri !",
+			"passwords_not_matching"	: "Le password inserite non corrispondono",
+			"username_characters"		: "Puoi usare solo lettere, numeri e i caratteri '.', '_' per il campo nome utente"
+		},
+
+		"email": {
+			"title"						: "Benvenuto su %s",
+			"content"					: "Devi attivare il tuo account cliccando su questo link: <a href=\"%sactivate/%s/%s\">Attiva Account</a>"
+		},
+
+		"email_new_account": {
+			"title"						: "Benvenuto su %s",
+			"content"					: "Abbiamo generato per te una login separata con questi dati <br /><br /> <strong>Nome utente:</strong> %s <br /> <strong>Password:</strong> %s"
+		},
+
+		"success_message": {
+			"registration"				: "Il tuo account e' stato creato, controlla la tua mail per cliccare sul link di attivazione !",
+			"login"						: "Benvenuto sulla nostra piattaforma, siamo lieti di averti con noi !"
+		}
+	},
+
+
+	"dashboard": {
+		"title"								: "Pannello di Controllo",
+		"menu"								: "Pannello di Controllo",
+
+		"display": {
+			"header"						: "Benvenuto su %s!",
+			"text"							: "Questo testo e' modificabile dal file linguaggio :)"
+		},
+		"sidebar": {
+			"premium"						: "Premium",
+			"header"						: "Ciao %s !",
+			"text"							: "Qui ci sono alcuni link utili <i class=\"fa fa-arrow-down\"></i>"
+		}
+
+	},
+
+	"my_reports": {
+		"title"								: "I Miei Report",
+		"menu"								: "I Miei Report",
+		"header"							: "I Miei Report",
+		"subheader"							: "Questa e' la lista con tutti i report che hai attualmente sbloccato.",
+
+		"display": {
+			"api_link"						: "Link API per %s",
+			"pdf_link"						: "PDF per %s"
+		},
+
+		"table": {
+			"username"						: "Nome utente",
+			"date"							: "Data",
+			"expiration_date"				: "Data di Scadenza",
+			"no_expiration_date"			: "N/A",
+			"nr"							: "#"
+		},
+
+		"info_message": {
+			"no_unlocked_reports"			: "Al momento non hai alcun report sbloccato.."
+		}
+
+	},
+
+	"api_documentation": {
+		"title"								: "Documentazione API",
+		"menu"								: "Documentazione API",
+		"header"							: "Documentazione API",
+		"subheader"							: "Qui puoi trovare le istruzioni su come usare le API per i tuoi report sbloccati.",
+
+		"display": {
+			"api_link"					: "Link API per %s"
+		},
+
+		"table": {
+			"username"					: "Nome Utente",
+			"date"						: "Data",
+			"expiration_date"			: "Data di Scadenza",
+			"no_expiration_date"		: "N/A",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"no_unlocked_reports"			: "Al momento non hai alcun report sbloccato.."
+		}
+
+	},
+
+	"store": {
+		"title"								: "Negozio",
+		"menu"								: "Negozio",
+		"header"							: "Negozio",
+		"header_transactions"				: "Transazioni",
+		"confirm_purchase"					: "Sei certo di voler comprare questo pacchetto ?",
+		"confirm_unlock_report"				: "Sei certo di voler sbloccare questo report ?",
+
+		"display": {
+			"state"							: "<strong>Bilancio Account:</strong> %s Punti. Aggiungi fondi al tuo account tramite <strong><a href=\"store-pay-paypal\">Paypal</a></strong>, <strong><a href=\"store-pay-stripe\">Stripe</a></strong>",
+			"purchase"						: "Acquista adesso",
+			"info"							: "1 Punto e' uguale ad 1 unita' di valuta del sito ( %s )."
+		},
+
+
+		"no_ads": {
+			"title"							: "Nessuna Pubblicita'",
+			"description"					: "Con il pacchetto Nessuna Pubblicita' non vedrai nessun annuncio pubblicitario sul sito, e mostrerai il tuo supporto allo staff per <strong>%s Punti</strong>"
+		},
+
+		"table": {
+			"type"						: "Tipo",
+			"email"						: "Email",
+			"date"						: "Data",
+			"name"						: "Nome Completo",
+			"amount"					: "Ammontare",
+			"currency"					: "",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"stripe_not_available"			: "Siamo spiacenti, ma i pagamenti tramite Stripe sono al momento disabilitati..",
+			"paypal_not_available"			: "Siamo spiacenti, ma i pagamenti tramite PayPal sono al momento disabilitati..",
+			"canceled"						: "Sembra che hai cancellato il tuo ordine, non possiamo processare il tuo pagamento.",
+			"no_transactions"				: "Al momento non ci sono transazioni da mostrare.."
+		},
+
+		"button": {
+
+		},
+
+		"paypal": {
+			"title"							: "PayPal",
+			"header"						: "Paga con PayPal",
+			"amount"						: "Seleziona un ammontare di punti"
+		},
+
+		"stripe": {
+			"title"							: "Stripe",
+			"header"						: "Paga con Stripe",
+			"amount"						: "Seleziona un ammontare di punti",
+			"description"					: "Punti per l'account"
+		},
+
+		"error_message": {
+			"already_no_ads"				: "Sembra che il tuo account abbia gia' acquistato il pacchetto Nessuna Pubblicita', non puoi comprare nuovamente questo pacchetto.",
+			"instagram_user_not_found"		: "Utente Instagram non trovato..",
+			"normal"						: "E' successo qualcosa mentre cercavamo di processare il tuo pagamento..",
+			"not_enough_funds"				: "Sembra che non ci sono fondi a sufficienza per acquistare questo pacchetto. Per favore, aggiungi altri fondi al tuo portafoglio e riprova.",
+			"allowed_packages"				: "Prova ad acquistare un pacchetto mostrato qui di seguito."
+		},
+
+		"success_message": {
+			"paid"							: "Hai nuovi fondi nel tuo account !",
+			"purchased"						: "Hai appena comprato il pacchetto !"
+		}
+	},
+
+
+	"index": {
+		"title"							: "Home",
+		"header2"						: "Report di esempio",
+
+		"display": {
+			"welcome"					: "Benvenuto su phpAnalyzer.com <i class=\"fa fa-pie-chart\"></i>",
+			"welcome_desc"				: "Analizza e traccia ogni account Instagram"
+		}
+
+	},
+
+
+
+	"admin_pages_management": {
+		"title"							: "Gestione Pagine",
+		"menu"							: "Pagine",
+		"header"						: "Aggiungi Pagina",
+
+		"table": {
+			"title"						: "Nome",
+			"url"						: "Url",
+			"position"					: "Posizione",
+			"position_top"				: "Menu superiore",
+			"position_bottom"			: "Menu inferiore",
+			"actions"					: "Azioni"
+		},
+
+		"input": {
+			"title"						: "Titolo della pagina",
+			"url"						: "URL / Slug",
+			"description"				: "Descrizione",
+			"position"					: "Posizione",
+			"position_top"				: "Menu superiore",
+			"position_bottom"			: "Menu inferiore"
+		}
+	},
+
+	"admin_payments_list": {
+		"title"							: "Elenco Pagamenti",
+		"menu"							: "Pagamenti",
+
+		"table": {
+			"type"						: "Tipo",
+			"email"						: "Email",
+			"user"						: "Utente",
+			"date"						: "Data",
+			"name"						: "Nome Completo",
+			"amount"					: "Ammontare",
+			"currency"					: ""
+		},
+
+		"display": {
+			"search_placeholder"		: "Cerca per nome utente, nome o email.."
+		}
+	},
+
+
+	"admin_index": {
+		"title"							: "Pannello Amministrativo",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"display": {
+			"latest_users"				: "Ultimi Account",
+			"latest_payments"			: "Ultimi Pagamenti"
+		},
+
+		"table": {
+			"username"					: "Nome utente",
+			"name"						: "Nome",
+			"email"						: "Email",
+			"type"						: "Tipo",
+			"date"						: "Data",
+			"actions"					: "Azioni"
+		}
+	},
+
+
+	"admin_users_management": {
+		"title"							: "Gestione Utenti",
+		"menu"							: "Utenti",
+
+		"table": {
+			"username"					: "Nome Utente",
+			"name"						: "Nome",
+			"email"						: "Email",
+			"ip"						: "IP",
+			"registration_date"			: "Data Reg.",
+			"actions"					: "Azioni"
+		},
+
+		"tooltip": {
+			"admin"						: "Amministratore",
+			"owner"						: "Proprietario"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Cancellando questo utente, tutto cio' che e' collegato a quell'utente verra' cancellato !"
+		},
+
+		"error_message": {
+			"self_delete"				: "Non puoi cancellare te stesso !",
+			"self_status"				: "Non puoi cambiare il tuo stesso status !"
+		},
+
+		"display": {
+			"search_placeholder"		: "Cerca per nome utente, nome o email.."
+		}
+	},
+
+
+	"admin_instagram_users_management": {
+		"title"							: "Gestione Utenti Instagram",
+		"menu"							: "Utenti IG",
+
+		"table": {
+			"username"					: "Nome Utente",
+			"full_name"					: "Nome",
+			"last_check_date"			: "Ultimo Check",
+			"actions"					: "Azioni"
+		},
+
+		"tooltip": {
+			"private"					: "IG Privato",
+			"demo"						: "Utente Demo",
+			"verified"					: "IG Verificato",
+			"out"						: "Guarda Profilo IG"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Cancellando questo utente IG, tutti i report e i log relativi a quell'utente saranno cancellati."
+		},
+
+		"display": {
+			"search_placeholder"		: "Cerca per nome utente Instagram o per nome account completo..",
+			"total"						: "Risultati totali: %s"
+		}
+	},
+
+
+
+	"admin_page_edit": {
+		"title"							: "Guarda Pagina",
+		"header"						: "Guarda Pagina",
+
+		"input": {
+			"title"						: "Titolo Pagina",
+			"url"						: "URL / Slug",
+			"description"				: "Descrizione",
+			"position"					: "Posizione",
+			"position_top"				: "Menu superiore",
+			"position_bottom"			: "Footer"
+		},
+
+		"error_message": {
+			"invalid_page"				: "Questa pagina non e' stata trovata !"
+		}
+	},
+
+
+	"admin_user_edit": {
+		"title"							: "Modifica Utente",
+		"header_reports"				: "Report Sbloccati",
+		"subheader_reports"				: "Report attualmente attivi e sbloccati da questo utente.",
+		"header"						: "Modifica Utente",
+		"header3"						: "Cambia Password",
+		"header3_help"					: "lascia in bianco se non vuoi cambiare la password !",
+		"header_transactions"			: "Transazioni",
+
+		"input": {
+			"points"					: "Punti Attuali",
+			"username"					: "Nome Utente",
+			"name"						: "Nome",
+			"email"						: "Email",
+			"type"						: "Account Amministratore",
+			"type_help"					: "Questo e' un account amministratore ?",
+			"status"					: "Status Account",
+			"status_help"				: "Attivo / Inattivo",
+			"new_password"				: "Nuova Password",
+			"repeat_password"			: "Ripeti Password",
+			"no_ads"					: "Nessuna Pubblicita'",
+			"no_ads_help"				: "Attiva manualmente il pacchetto Nessuna Pubblicita'",
+			"last_activity"				: "Ultima Volta Attivo"
+		},
+
+		"table": {
+			"username"					: "Nome Utente",
+			"date"						: "Data",
+			"expiration_date"			: "Data di Scadenza",
+			"no_expiration_date"		: "N/A",
+			"type"						: "Tipo",
+			"email"						: "Email",
+			"name"						: "Nome Completo",
+			"amount"					: "Ammontare",
+			"currency"					: "",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"no_transactions"				: "Al momento non ci sono transazioni da mostrare..",
+			"no_unlocked_reports"			: "Al momento non ci sono report attivi per questo utente.."
+		},
+
+		"error_message": {
+			"name_length"				: "Il nome deve contenere fra i 3 e i 32 caratteri !",
+			"invalid_account"			: "Questo account non e' stato trovato !",
+			"email_exists"				: "Siamo spiacenti, ma questa email e' gia' in uso !",
+			"invalid_email"				: "Hai inserito un indirizzo email errato !",
+			"short_password"			: "La tua password e' troppo breve, deve contenere almeno 6 caratteri !",
+			"passwords_not_matching"	: "Le password inserite non corrispondono"
+		}
+	},
+
+
+	"admin_website_settings": {
+		"title"							: "Impostazioni Sito",
+		"menu"							: "Impostazioni Sito",
+		"header"						: "Impostazioni Sito",
+
+		"input": {
+			"title"						: "Titolo del sito",
+			"logo"						: "Logo",
+			"logo_help"					: "Accettati jpg, jpeg e png. Dimensione consigliata: altezza massima di 40px e sfondo trasparente.",
+			"logo_remove"				: "Rimuovi Logo",
+			"meta_description"			: "Meta Description",
+			"meta_keywords"				: "Meta Keywords",
+			"analytics_code"			: "Analytics Tracking Code",
+			"analytics_code_help"		: "Esempio: UA-22222222-33 ( Lascia in bianco se non hai un codice Google Analytics )",
+			"email_confirmation"		: "Conferma registrazione via email",
+			"time_zone"					: "Time Zone",
+			"index_ad"					: "Codice Pubblicita' per la pagina Index",
+			"report_ad"					: "Codice Pubblicita' per la pagina Report",
+			"account_sidebar_ad"		: "Codice Pubblicita' per la Sidebar",
+			"recaptcha"					: "Attiva ReCaptcha",
+			"recaptcha_help"			: "Se attivo, devi inserire la chiave pubblica e privata dalle API di Google Recaptcha",
+			"public_key"				: "Chiave Pubblica",
+			"private_key"				: "Chiave Privata",
+			"social_help"				: "Inserisci solo il valore id o il nome della pagina, non tutto l'URL completo",
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"instagram"					: "Instagram",
+			"youtube"					: "Youtube",
+			"smtp_help"					: "Se non ci sono valori inseriti in questi campi, il sistema cerchera' di usare la funzione di default di mail.",
+			"smtp_host"					: "Host SMTP",
+			"smtp_port"					: "Porta SMTP",
+			"smtp_user"					: "Utente SMTP",
+			"smtp_pass"					: "Password SMTP",
+			"smtp_auth"					: "Autenticazione",
+			"smtp_encryption"			: "Criptatura",
+			"smtp_from"					: "Da (email)",
+			"smtp_from_help"			: "L'indirizzo email dal quale l'utente ricevera' le email / usato anche come indirizzo email 'reply-to' ( registrazione / email di attivazione / password perduta )",
+			"facebook_login"			: "Attiva Registrazione/Login con Facebook",
+			"facebook_app_id"			: "Facebook App Id",
+			"facebook_app_secret"		: "Facebook App Secret",
+			"instagram_login"			: "Attiva Registrazione/Login con Instagram",
+			"instagram_client_id"		: "Instagram Client Id",
+			"instagram_client_secret"	: "Instagram Client Secret",
+			"store_paypal_client_id"	: "Paypal Client ID",
+			"store_help"				: "Fai riferimento alla <a href=\"https://phpstatistics.com/docs\">Documentazione</a> per capire dove ottenere queste chiavi.",
+			"store_paypal_secret"		: "Paypal Secret",
+			"store_stripe_publishable_key"		: "Stripe Publishable Key",
+			"store_stripe_secret_key"			: "Stripe Secret Key",
+			"store_currency"					: "Valuta",
+			"store_unlock_report_price"			: "Prezzo ( in punti ) per sbloccare il Report",
+			"store_unlock_report_price_help"	: "Imposta a 0 ( zero ) se vuoi rendere disponibili i report a tutti. Impostandolo a 0 fara' si che il cron verifichera' tutti i report disponibili, non solo quelli che sono stati acquistati.",
+			"store_unlock_report_time"			: "Periodo di Sblocco dei Report ( giorni )",
+			"store_unlock_report_time_help"		: "Imposta l'ammontare di giorni per i quali i report sono disponibili dopo l'acquisto. Imposta a 0 se vuoi che l'utente abbia accesso al Report per un periodo illimitato dopo l'acquisto.",
+			"store_user_default_points"			: "Punti di Default per Nuovi Utenti",
+			"store_user_default_points_help"	: "I Punti di Default sono i punti che gli utenti ottengono nel registrarsi.",
+			"store_no_ads_price"				: "Prezzo Pacchetto Nessuna Pubblicita' ( punti )",
+			"instagram_check_interval"			: "Intervallo di Controllo ( Ore )",
+			"instagram_check_interval_help"		: "Un account deve essere verificato dopo X ore",
+			"instagram_minimum_followers"		: "Follower Minimi",
+			"instagram_minimum_followers_help"	: "Se l'account non ha questo numero minimo di follower, non verra' aggiunto al sistema.",
+			"instagram_live_check_interval"		: "Intervallo Live Check ( secondi )",
+			"instagram_live_check_interval_help": "Quanto spesso il contatore live si deve aggiornare",
+			"instagram_calculator_media_count"	: "Calcolatore Conteggio Media",
+			"instagram_calculator_media_count_help" : "Quanti degli ultimi post considerare quando si aggiorna un report. (Max 30)",
+
+			"cron_url"							: "Cron Url",
+			"cron_url_help"						: "L'url del cron job che dovrai usare per creare il tuo cronjob.",
+			"cron_help"							: "fai riferimento alla <a href=\"https://phpstatistics.com/docs\">Documentazione</a> per scoprire come impostare un Cron.",
+			"cron_queries"						: "Cron Queries per Esecuzione",
+			"cron_queries_help"					: "Quanti account controllare in ogni singola Esecuzione del Cron. Per una performance ottimale, scegli un valore fra <strong>1</strong> e <strong>5</strong>"
+		},
+
+		"tab": {
+			"main"						: "Principale",
+			"store"						: "Negozio",
+			"ads"						: "Ads",
+			"api"						: "API's",
+			"social"					: "Social",
+			"email"						: "Email",
+			"instagram"					: "Impostazioni Instagram",
+			"cron"						: "Cron Job"
+		}
+	},
+
+
+	"admin_extra_settings": {
+		"title"							: "Impostazioni Extra",
+		"menu"							: "Impostazioni Extra",
+		"header"						: "Impostazioni Extra",
+
+		"input": {
+			"reset_users"				: "Utenti",
+			"reset_users_help"			: "( Tutti gli utenti eccetto te, verranno cancellati! )",
+			"reset_instagram"			: "Tutti gli Account Instagram",
+			"reset_instagram_help"		: "( Anche i Report Sbloccati ed i Favoriti verranno cancellati! )",
+			"reset_instagram_logs"		: "Tutti i Log Instagram",
+			"username"					: "Nome Utente Instagram"
+		},
+
+		"table": {
+			"username"					: "Nome Utente Instagram",
+			"actions"					: "Azioni"
+		},
+
+		"display": {
+			"demo_reports"				: "Report Demo",
+			"demo_reports_help"			: "Qui puoi decidere quali report sono disponibili gratuitamente sulla pagina index del sito a tutti gli utenti.",
+			"reset"						: "Resetta",
+			"reset_help"				: "Qui puoi resettare parti del tuo sito se ne hai bisogno."
+		},
+
+		"error_message": {
+
+		}
+	},
+
+
+	"admin_website_statistics": {
+		"title"							: "Statistiche del Sito",
+		"menu"							: "Statistiche"
+	},
+
+
+
+
+	"not_found": {
+		"title"							: "Non trovato",
+		"content"						: "Siamo spiacenti, ma non abbiamo trovato la pagina che stavi cercando...",
+
+		"error_message": {
+			"invalid_link" 				: "Hai cercando di inserire un link errato.. "
+		}
+	},
+
+	"api": {
+		"error_message": {
+			"unauthorized"				: "La tua chiave API non e' autorizzata per fare questa richiesta.",
+			"not_found"					: "Questo nome utente non esiste nel sistema."
+		}
+	},
+
+	"pdf": {
+		"title"							: "@%s Report PDF",
+
+		"display": {
+			"header"					: "Report per %s",
+			"subheader"					: "Link all'ufficiale profilo Instagram di <a href=\"%s\">@%s</a>",
+			"subheader_help"			: "Tutte le statistiche sono calcolate sugli ultimi %s post.",
+			"engagement_header"			: "Engagement",
+			"stats_header"				: "Riepilogo Statistiche Account",
+
+			"engagement_rate"			: "Engagement",
+			"engagement_rate_help"		: "L'engagement e' il numero di like/commenti attivi su ogni post",
+			"average_likes"				: "Media Like",
+			"average_comments"			: "Media Commenti",
+
+			"projections_header"		: "Proiezioni Future",
+			"no_projections"			: "Non ci sono sufficienti dati per generare una proiezione futura, torna domani.",
+			"projections_help"			: "Di seguito puoi vedere una proiezione delle statistiche future calcolata sulla media dei giorni trascorsi.",
+			"time_until"				: "Fra",
+			"time_until_now"			: "Statistiche Attuali",
+			"average_calculations"		: "<i class=\"fa fa-calculator\"></i> Basate sulla media di",
+			"followers_per_day"			: "%s follower/giorno",
+			"uploads_per_day"			: "%s upload/giorno",
+
+			"followers"					: "Follower",
+			"following"					: "Following",
+			"uploads"					: "Upload",
+			"date"						: "Data",
+			"total_summary"				: "Riepilogo",
+
+			"top_mentions"				: "Top Menzioni",
+			"top_hashtags"				: "Top Hashtag",
+			"x_uses"					: "%s Usi"
+		},
+
+		"error_message": {
+			"unauthorized"				: "Il tuo account non e' autorizzato a fare questa richiesta.",
+			"not_found"					: "Questo nome utente non esiste nel sistema."
+		}
+	}
+}
