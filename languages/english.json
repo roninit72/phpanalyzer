@@ -112,10 +112,12 @@
 		},
 
 		"info_message": {
+			"private_account"			: "This is a private account, can't display this data..",
 			"user_not_found"			: "It seems that <strong>%s</strong> does not exist in our database yet, would you like to <a href=\"report/%s\">Add %s</strong></a>  to our database?"
 		},
 
 		"error_message": {
+			"embed"						: "We could not fetch the embed post.",
 			"no_access"					: "You do not have access to these statistics unless you login.",
 			"no_access_purchase"		: "You must have at least one Report purchased of either one of accounts that you want to check."
 		}
