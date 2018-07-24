@@ -112,10 +112,12 @@
 		},
 
 		"info_message": {
+			"private_account"			: "Questo e' un account privato, non posso mostrare questi dati.",
 			"user_not_found"			: "Sembra che <strong>%s</strong> non esista ancora nel nostro database, vuoi <a href=\"report/%s\">Aggiungere %s</strong></a> al nostro database?"
 		},
 
 		"error_message": {
+			"embed"						: "Non e' stato possibile recuperare il post incorporato.",
 			"no_access"					: "Non puoi accedere a queste statistiche se non esegui il login.",
 			"no_access_purchase"		: "Devi aver acquistato almeno un Report di entrambi gli account che vuoi controllare."
 		}
@@ -127,7 +129,7 @@
 		"display": {
 			"compare"					: "Confronta",
 			"projections"				: "Proiezioni Future",
-			"no_projections"			: "Non ci sono dati sufficienti per generare le proiezioni future, per favore torna domani.",
+			"no_projections"			: "Non ci sono dati sufficienti per generare le proiezioni future. Mi occorrono i dati di almeno 5 giorni prima di poter calcolare una previsione di crescita. Per favore, torna quando avro' dati a sufficienza.",
 			"projections_help"			: "Di seguito puoi vedere una proiezione delle statistiche future calcolata sulla media dei giorni trascorsi.",
 			"time_until"				: "Statistiche di",
 			"time_until_now"			: "Oggi",
@@ -159,13 +161,13 @@
 			"top_hashtags"				: "Top #Hashtag",
 			"top_hashtags_help"			: "Top hashtag dagli ultimi %s post",
 			"hashtag_use"				: "Usato in %s dei %s post",
-			"user"						: "Utente",
+			"user"						: "Profilo",
 			"date"						: "Data",
 			"date_help"					: "Formato: YYYY-MM-DD",
 			"engagement"				: "Engagement",
 			"statistics_summary"		: "Riepilogo Statistiche Persone",
 			"summary"					: "Riepilogo Statistiche Account",
-			"summary_help"				: "Mostra ultimi 15 giorni.",
+			"summary_help"				: "Mostra gli ultimi 15 giorni.",
 			"total_summary"				: "<i class=\"fa fa-list-ol\"></i> Riepilogo Totale",
 			"average_engagement_rate_chart_summary"			: "Grafico Media Engagement",
 			"average_engagement_rate_chart_summary_help"	: "Ogni valore in questo grafico e' uguale alla Media Engagement Rate dell'account in quel preciso giorno",
@@ -615,10 +617,10 @@
 
 	"admin_instagram_users_management": {
 		"title"							: "Gestione Utenti Instagram",
-		"menu"							: "Utenti IG",
+		"menu"							: "Profili IG",
 
 		"table": {
-			"username"					: "Nome Utente",
+			"username"					: "Profilo Instagram",
 			"full_name"					: "Nome",
 			"last_check_date"			: "Ultimo Check",
 			"actions"					: "Azioni"
@@ -773,11 +775,11 @@
 			"store_user_default_points_help"	: "I Punti di Default sono i punti che gli utenti ottengono nel registrarsi.",
 			"store_no_ads_price"				: "Prezzo Pacchetto Nessuna Pubblicita' ( punti )",
 			"instagram_check_interval"			: "Intervallo di Controllo ( Ore )",
-			"instagram_check_interval_help"		: "Un account deve essere verificato dopo X ore",
+			"instagram_check_interval_help"		: "Ogni quante X ore gli account verranno controllati. Se visiti nuovamente il report di un determinato account prima che siano trascorse queste X ore, le statistiche non verranno comunque aggiornate.",
 			"instagram_minimum_followers"		: "Follower Minimi",
 			"instagram_minimum_followers_help"	: "Se l'account non ha questo numero minimo di follower, non verra' aggiunto al sistema.",
 			"instagram_live_check_interval"		: "Intervallo Live Check ( secondi )",
-			"instagram_live_check_interval_help": "Quanto spesso il contatore live si deve aggiornare",
+			"instagram_live_check_interval_help": "Quanto spesso il contatore live si deve aggiornare.",
 			"instagram_calculator_media_count"	: "Calcolatore Conteggio Media",
 			"instagram_calculator_media_count_help" : "Quanti degli ultimi post considerare quando si aggiorna un report. (Max 30)",
 
